@@ -1,0 +1,22 @@
+{
+  "name": "milkdown-utools",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@milkdown/core": "^5.2.0",
+    "@milkdown/preset-commonmark": "^5.2.0",
+    "@milkdown/theme-nord": "^5.2.0",
+    "@milkdown/vue": "^5.2.0",
+    "vue": "^3.2.23"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.10.2",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.0",
+    "vue-tsc": "^0.28.10"
+  }
+}
